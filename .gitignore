@@ -1,0 +1,14 @@
+# Publish only the website and deployment configuration; internal work stays local.
+/*
+!/.gitignore
+!/README.md
+!/.github/
+/.github/*
+!/.github/workflows/
+!/.github/workflows/pages.yml
+!/2026-10-27_ホームページ新規開発/
+/2026-10-27_ホームページ新規開発/*
+!/2026-10-27_ホームページ新規開発/site/
+**/.DS_Store
+**/node_modules/
+**/.env*
